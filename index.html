@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gabut</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="body">
+    <div class="weapon">
+      <img src="revolver-cross.png" />
+      <h1>PLACEHOLDER</h1>
+      <img src="revolver-cross.png" />
+    </div>
+    <div class="gap"></div>
+    <p>
+      <!-- Content here >> -->kegabutan ngga jelas yang membuat saya membuat
+      ini.
+    </p>
+
+    <div class="container">
+      <span>
+        <img class="imagebt" src="logowa.png" /><br />
+        <a href="https://web.whatsapp.com/" target="_blank"
+          ><button>Whatsapp</button></a
+        >
+      </span>
+      <span>
+        <img class="imagebt" src="ytlogof.png" /><br />
+        <a href="https://www.youtube.com/" target="_blank"
+          ><button>Youtube</button></a
+        >
+      </span>
+      <span>
+        <img class="imagebt" src="gmaillogo.png" /><br />
+        <a href="https://mail.google.com/" target="_blank"
+          ><button>Gmail</button></a
+        >
+      </span>
+    </div>
+    <div class="scam">
+      <a href="https://www.google.com/search?q=how+to+make+a+cookies"
+        ><button>Free Cookies</button></a
+      ><br />
+    </div>
+    <form class="tulis">
+      <div class="labelpass">
+        <label for="password">Password</label>
+      </div>
+      <select class="password" placeholder="Password Here">
+        <option>surya1234</option>
+        <option>1234surya</option>
+      </select>
+      <input type="submit" />
+    </form>
+    <audio id="testscam">
+      <source src="Halo semuanya, saya disini aka.mp3" />
+    </audio>
+    <div class="container">
+      <button onclick="playaudio()">play test scam</button>
+      <button onclick="changeimga()">Change Wallpaper</button>
+      <button onclick="changeimgb()">Change Wallpaper</button>
+    </div>
+    <a href="test.html"><button>test</button></a>
+    <script>
+      var x = document.getElementById("testscam");
+      function playaudio() {
+        x.play();
+      }
+      var a = document.getElementById("body");
+      function changeimga() {
+        var body = document.getElementById("body");
+        body.style.backgroundImage = "url(Imgur.png)";
+      }
+      var b = document.getElementById("body");
+      function changeimgb() {
+        var body = document.getElementById("body");
+        body.style.backgroundImage = "url(cpu.gif)";
+      }
+    </script>
+  </body>
+</html>
