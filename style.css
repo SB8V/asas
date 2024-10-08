@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "jbm-xbold";
+  src: url(JetBrainsMono-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "ULTRAKILL";
+  src: url(BroshKill-Regular.otf);
+}
+
+@font-face {
+  font-family: "ultrakillcat";
+  src: url(VCR_OSD_MONO_1.001.ttf);
+}
+
+body {
+  background-image: url("cpu.gif");
+  background-size: cover;
+  text-align: center;
+}
+
+h1 {
+  background-color: rgb(27, 22, 22);
+  text-align: center;
+  color: rgb(255, 0, 0);
+  font-family: "ultrakillcat";
+  font-size: 90px;
+}
+
+.weapon {
+  display: flex;
+  padding: 10px;
+  height: 90px;
+  background-color: rgb(27, 22, 22);
+  justify-content: center;
+  gap: 90px;
+  border-style: dashed;
+  border-color: red;
+}
+
+p {
+  background-color: #111111b0;
+  color: aqua;
+  font-size: larger;
+  padding: 22px;
+  display: grid;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-color: red;
+  border-radius: 10px;
+}
+
+.container {
+  padding: 22px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  width: 110px;
+  height: 40px;
+  border-style: solid;
+  border-color: red;
+  border-radius: 10px;
+  background-color: #0099ff;
+  font-family: "jbm-xbold";
+  font-weight: bold;
+  color: #000000b2;
+}
+
+button:active {
+  width: 110px;
+  height: 40px;
+  border-style: solid;
+  border-color: #0099ff;
+  border-radius: 10px;
+  background-color: red;
+  font-family: "jbm-xbold";
+  font-weight: bold;
+  color: #000000b2;
+}
+
+.imagebt {
+  border-radius: 10px;
+  padding: 5px;
+  background-color: gray;
+  width: 40px;
+  height: 40px;
+}
+
+.scam {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.tulis {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: aqua;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  row-gap: 5px;
+}
+
+.labelpass {
+  background-color: #a71111;
+  border-radius: 10px;
+  padding: 6px;
+}
+
+.password {
+  text-align: center;
+  padding: 5px;
+  width: 10%;
+}
